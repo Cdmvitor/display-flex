@@ -1,0 +1,52 @@
+section {
+    border: 2px solid red;
+}
+
+.chains {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+    margin-bottom: 1rem;
+}
+
+.chains img {
+    width: 20rem;
+}
+
+.chains p {
+    width: 30rem;
+}
+
+.samsung {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.samsung img {
+    width: 20rem;
+}
+
+.samsung p {
+    width: 30rem;
+    text-align: center;
+}
+
+.formularios {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.formularios div {
+    display: flex;
+    flex-direction: column;
+}
+
+.formularios form {
+    max-width: 30rem;
+}
